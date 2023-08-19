@@ -1,0 +1,65 @@
+.menu {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	color: #666;
+	z-index: 10;
+}
+
+.menu span {
+	cursor: pointer;
+	float: right;
+	margin-left: 20px;
+}
+
+.menu span:hover {
+	text-decoration: underline;
+}
+
+.customSelect {
+	height: 20px;
+}
+
+span.customSelectOptions {
+	margin: 0;
+	width: 120px;
+}
+
+.customSelectOptions > ul {
+	max-height: 20px;
+	width: 120px;
+	overflow: hidden;
+	transition: max-height 1s;
+	padding: 0;
+	margin: 0;
+	bottom: 0;
+	position: absolute;
+	right: 0;
+}
+
+.customSelectOptions > ul:hover {
+	max-height: 620px;
+}
+
+.customSelectOptions > ul > li {
+	padding: 0 0 3px 0;
+	list-style-type: none;
+	height: 20px;
+}
+
+.customSelectOptions > ul > li:last-child {
+	padding: 0;
+}
+
+.customSelectOptions > ul > li:hover {
+	text-decoration: underline;
+}
+
+.customSelectOptions > ul > li:first-child:hover {
+	cursor: default;
+	text-decoration: none;
+}
+
+.menu .appStore {
+	font-weight: bold;
+}

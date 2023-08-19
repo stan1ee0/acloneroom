@@ -1,0 +1,17 @@
+{
+  "name": "acloneroom",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "stan1ee0",
+  "license": "MIT",
+  "description": "A Dark Room Parody",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

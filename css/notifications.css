@@ -1,0 +1,12 @@
+div#notifications {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  height: 700px;
+  width: 200px;
+  overflow: hidden;
+}
+
+div#notifications div.notification {
+  margin-bottom: 10px;
+}
