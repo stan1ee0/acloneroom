@@ -1,5 +1,5 @@
 # acloneroom
-A Clone Room - A Dark Room Parody
+A Dark Room Parody
 
 ## Members
 | ChatGPT | stan1ee0 |
