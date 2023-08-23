@@ -1,0 +1,28 @@
+div#header {
+  padding-bottom: 20px;
+  height: 20px;
+}
+
+div.headerButton {
+  font-size: 17px;
+  cursor: pointer;
+  float: left;
+  border-left: 1px solid black;
+  margin-left: 10px;
+  padding-left: 10px;
+} 
+
+div.headerButton:hover {
+  text-decoration: underline;
+}       
+
+div.headerButton:first-child {
+  border-left: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+div.headerButton.selected, div.headerButton.selected:hover {
+  cursor: default;
+  text-decoration: underline;
+}
