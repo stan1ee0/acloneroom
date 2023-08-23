@@ -10,3 +10,15 @@ div#notifications {
 div#notifications div.notification {
   margin-bottom: 10px;
 }
+
+div#notifyGradient {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%
+  );
+}
